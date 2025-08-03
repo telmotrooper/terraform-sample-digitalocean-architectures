@@ -10,8 +10,8 @@ resource "digitalocean_database_cluster" "postgres-cluster" {
     # The database engine to use. Currently Postgres. Could be MySql or Redis
     engine     = "pg"
 
-    # Version of the engine. So Postgres 11
-    version    = "11"
+    # Version of the engine. So Postgres 17
+    version    = "17"
 
     # Size of the database instance
     size       = var.database_size

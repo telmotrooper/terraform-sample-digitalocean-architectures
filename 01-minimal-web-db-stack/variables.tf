@@ -67,5 +67,5 @@ variable "database_size" {
 # Can view slugs (valid options) https://slugs.do-api.dev/
 variable "image" {
     type = string
-    default = "ubuntu-20-04-x64"
+    default = "ubuntu-24-04-x64"
 }
